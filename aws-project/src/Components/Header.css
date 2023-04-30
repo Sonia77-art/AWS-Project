@@ -1,0 +1,8 @@
+.header {
+  display: flex;
+
+  padding: 100px;
+  text-align: center;
+  background: #161717;
+  color: #fff;
+}
