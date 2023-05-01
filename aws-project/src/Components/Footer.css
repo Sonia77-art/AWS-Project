@@ -1,0 +1,15 @@
+.Elements {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  background-color: DodgerBlue;
+  color: white;
+  margin: 0 30px;
+  padding: 30px;
+  font-size: 18px;
+}
+
+.Elements p {
+  display: inline-block;
+  margin: 15px;
+}

@@ -1,27 +1,17 @@
 import React from "react";
-import { GrContact } from "react-icon/gr";
-import { MdAttachEmail } from "react-icon/md";
-import { GrLinkedin } from "react-icon/gr";
+import "./Footer.css";
 
 export default function Footer() {
   return (
     <footer>
       <div className="Elements">
-        <div className="Contact Us">
-          <a href="#">
-            <GrContact />
-          </a>
-        </div>
-        <div className="Email">
-          <a href="www.gmail.com">
-            <MdAttachEmail />
-          </a>
-        </div>
-        <div className="linkedin">
-          <a href="https://www.linkedin.com/">
-            <GrLinkedin />
-          </a>
-        </div>
+        <p>Contact-Us</p>
+        {/* <a href="+358440055778">Contact</a> */}
+        <p>Email</p>
+        {/* <a href="www.gmail.com">Email</a> */}
+
+        <p>Linkedin</p>
+        {/* <a href="https://www.linkedin.com/">Linkedin</a> */}
       </div>
     </footer>
   );
