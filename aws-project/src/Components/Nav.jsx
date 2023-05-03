@@ -12,7 +12,6 @@ export default function Nav() {
       <div className="Search">
         <input type="Text" value=" " />
         <button>Search</button>
-        <button>Sign Up</button>
       </div>
     </div>
   );

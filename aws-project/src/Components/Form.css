@@ -1,8 +1,42 @@
 .form-container {
-  border: 5px solid black;
+  display: flex;
+  border: 2px solid black;
   padding: 10px;
-  background-color: black;
-  color: cornsilk;
-  font-size: 15px;
-  font-weight: bold;
+  background-color: rgb(237, 233, 233);
+  color: rgb(56, 183, 238);
+  font-size: 25px;
+  /* font-weight: bold; */
+  height: 400px;
+  justify-content: center;
+  padding: 30px;
+  margin-top: 10px;
+  margin-left: 500px;
+  margin-right: 650px;
+}
+
+.h1 {
+  color: black;
+  font-size: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.h2 {
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1em;
+}
+
+.F1 {
+  border-color: rgb(56, 183, 238);
+  font-size: 1rem;
+}
+
+.F2 {
+  border-color: rgb(56, 183, 238);
+  font-size: 1rem;
+}
+
+.Btn {
+  font-size: 1.2rem;
+  border-color: black;
 }
